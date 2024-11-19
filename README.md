@@ -3745,3 +3745,255 @@
                     ├── image.html
                     └── image_with_borders.html
 ```
+
+
+2 Levels only: `81` directories, `159` files
+```bash
+.
+├── Api
+│   ├── AttributeSetFinderInterface.php
+│   ├── AttributeSetManagementInterface.php
+│   ├── AttributeSetRepositoryInterface.php
+│   ├── BasePriceStorageInterface.php
+│   ├── CategoryAttributeOptionManagementInterface.php
+│   ├── CategoryAttributeRepositoryInterface.php
+│   ├── CategoryLinkManagementInterface.php
+│   ├── CategoryLinkRepositoryInterface.php
+│   ├── CategoryListDeleteBySkuInterface.php
+│   ├── CategoryListInterface.php
+│   ├── CategoryManagementInterface.php
+│   ├── CategoryRepositoryInterface.php
+│   ├── CostStorageInterface.php
+│   ├── Data
+│   ├── ProductAttributeGroupRepositoryInterface.php
+│   ├── ProductAttributeIsFilterableManagementInterface.php
+│   ├── ProductAttributeManagementInterface.php
+│   ├── ProductAttributeMediaGalleryManagementInterface.php
+│   ├── ProductAttributeOptionManagementInterface.php
+│   ├── ProductAttributeOptionUpdateInterface.php
+│   ├── ProductAttributeRepositoryInterface.php
+│   ├── ProductAttributeTypesListInterface.php
+│   ├── ProductCustomOptionRepositoryInterface.php
+│   ├── ProductCustomOptionTypeListInterface.php
+│   ├── ProductLinkManagementInterface.php
+│   ├── ProductLinkRepositoryInterface.php
+│   ├── ProductLinkTypeListInterface.php
+│   ├── ProductManagementInterface.php
+│   ├── ProductMediaAttributeManagementInterface.php
+│   ├── ProductRenderListInterface.php
+│   ├── ProductRepositoryInterface.php
+│   ├── ProductTierPriceManagementInterface.php
+│   ├── ProductTypeListInterface.php
+│   ├── ProductWebsiteLinkRepositoryInterface.php
+│   ├── ScopedProductTierPriceManagementInterface.php
+│   ├── SpecialPriceInterface.php
+│   ├── SpecialPriceStorageInterface.php
+│   └── TierPriceStorageInterface.php
+├── Block
+│   ├── Adminhtml
+│   ├── Breadcrumbs.php
+│   ├── Category
+│   ├── FrontendStorageManager.php
+│   ├── Navigation.php
+│   ├── Product
+│   ├── Rss
+│   ├── ShortcutButtons.php
+│   ├── ShortcutInterface.php
+│   ├── Ui
+│   └── Widget
+├── Console
+│   └── Command
+├── Controller
+│   ├── Adminhtml
+│   ├── Category
+│   ├── Index
+│   ├── Product
+│   └── Product.php
+├── Cron
+│   ├── DeleteAbandonedStoreFlatTables.php
+│   ├── DeleteOutdatedPriceValues.php
+│   ├── FrontendActionsFlush.php
+│   ├── RefreshSpecialPrices.php
+│   └── SynchronizeWebsiteAttributes.php
+├── CustomerData
+│   ├── CompareProducts.php
+│   ├── ProductFrontendActionSection.php
+│   └── ProductsRenderInfoSection.php
+├── Helper
+│   ├── Catalog.php
+│   ├── Category.php
+│   ├── Data.php
+│   ├── DefaultCategory.php
+│   ├── Image.php
+│   ├── Output.php
+│   ├── Product
+│   └── Product.php
+├── LICENSE.txt
+├── LICENSE_AFL.txt
+├── Model
+│   ├── AbstractModel.php
+│   ├── Api
+│   ├── Attribute
+│   ├── Category
+│   ├── Category.php
+│   ├── CategoryAttributeSearchResults.php
+│   ├── CategoryLink.php
+│   ├── CategoryLinkManagement.php
+│   ├── CategoryLinkRepository.php
+│   ├── CategoryList.php
+│   ├── CategoryManagement.php
+│   ├── CategoryProductLink.php
+│   ├── CategoryRepository
+│   ├── CategoryRepository.php
+│   ├── CategorySearchResults.php
+│   ├── CompareList.php
+│   ├── CompareListIdToMaskedListId.php
+│   ├── Config
+│   ├── Config.php
+│   ├── CustomOptions
+│   ├── Design.php
+│   ├── Entity
+│   ├── EntityInterface.php
+│   ├── Factory.php
+│   ├── FilterProductCustomAttribute.php
+│   ├── FrontendStorageConfigurationInterface.php
+│   ├── FrontendStorageConfigurationPool.php
+│   ├── ImageExtractor.php
+│   ├── ImageUploader.php
+│   ├── Indexer
+│   ├── Layer
+│   ├── Layer.php
+│   ├── Layout
+│   ├── Locator
+│   ├── MaskedListIdToCompareListId.php
+│   ├── Plugin
+│   ├── Product
+│   ├── Product.php
+│   ├── ProductAttributeGroupRepository.php
+│   ├── ProductAttributeSearchResults.php
+│   ├── ProductCategoryList.php
+│   ├── ProductFrontendAction.php
+│   ├── ProductIdLocator.php
+│   ├── ProductIdLocatorInterface.php
+│   ├── ProductLink
+│   ├── ProductManagement.php
+│   ├── ProductNotFoundPageCacheTags.php
+│   ├── ProductOption.php
+│   ├── ProductOptionProcessor.php
+│   ├── ProductOptionProcessorInterface.php
+│   ├── ProductOptions
+│   ├── ProductRender
+│   ├── ProductRender.php
+│   ├── ProductRenderInfoSearchResults.php
+│   ├── ProductRenderList.php
+│   ├── ProductRepository
+│   ├── ProductRepository.php
+│   ├── ProductSearchResults.php
+│   ├── ProductType.php
+│   ├── ProductTypeList.php
+│   ├── ProductTypes
+│   ├── ProductVisibilityCondition.php
+│   ├── ProductWebsiteLink.php
+│   ├── ProductWebsiteLinkRepository.php
+│   ├── ResourceModel
+│   ├── Rss
+│   ├── Session.php
+│   ├── System
+│   ├── Template
+│   ├── Theme
+│   ├── View
+│   ├── Webapi
+│   └── Widget
+├── Observer
+│   ├── CatalogCheckIsUsingStaticUrlsAllowedObserver.php
+│   ├── CategoryDesignAuthorization.php
+│   ├── CategoryProductIndexer.php
+│   ├── Compare
+│   ├── FlushCategoryPagesCache.php
+│   ├── ImageResizeAfterProductSave.php
+│   ├── InvalidateCacheOnCategoryDesignChange.php
+│   ├── MenuCategoryData.php
+│   ├── SetSpecialPriceStartDate.php
+│   ├── SwitchPriceAttributeScopeOnConfigChange.php
+│   └── SynchronizeWebsiteAttributesOnStoreChange.php
+├── Plugin
+│   ├── Api
+│   ├── Block
+│   ├── CategoryAuthorization.php
+│   ├── Framework
+│   ├── Model
+│   ├── ProductAuthorization.php
+│   ├── RemoveImagesFromGalleryAfterRemovingProduct.php
+│   └── Ui
+├── Pricing
+│   ├── Price
+│   ├── Render
+│   └── Render.php
+├── README.md
+├── Setup
+│   ├── CategorySetup.php
+│   ├── Patch
+│   └── Recurring.php
+├── Test
+│   ├── Fixture
+│   ├── Mftf
+│   └── Unit
+├── Ui
+│   ├── AllowedProductTypes.php
+│   ├── Component
+│   └── DataProvider
+├── ViewModel
+│   ├── Category
+│   └── Product
+├── composer.json
+├── etc
+│   ├── acl.xml
+│   ├── adminhtml
+│   ├── catalog_attributes.xml
+│   ├── catalog_attributes.xsd
+│   ├── communication.xml
+│   ├── config.xml
+│   ├── crontab.xml
+│   ├── db_schema.xml
+│   ├── db_schema_whitelist.json
+│   ├── di.xml
+│   ├── eav_attributes.xml
+│   ├── events.xml
+│   ├── extension_attributes.xml
+│   ├── frontend
+│   ├── indexer.xml
+│   ├── module.xml
+│   ├── mview.xml
+│   ├── product_options.xml
+│   ├── product_options.xsd
+│   ├── product_options_merged.xsd
+│   ├── product_types.xml
+│   ├── product_types.xsd
+│   ├── product_types_base.xsd
+│   ├── product_types_merged.xsd
+│   ├── queue.xml
+│   ├── queue_consumer.xml
+│   ├── queue_publisher.xml
+│   ├── queue_topology.xml
+│   ├── view.xml
+│   ├── webapi.xml
+│   ├── webapi_async.xml
+│   ├── webapi_rest
+│   ├── webapi_soap
+│   └── widget.xml
+├── i18n
+│   └── en_US.csv
+├── registration.php
+├── tree_output.txt
+└── view
+    ├── adminhtml
+    ├── base
+    └── frontend
+```
+
+
+
+
+
+
+
